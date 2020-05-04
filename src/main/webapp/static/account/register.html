@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Register account</title>
+</head>
+<body>
+	<b>Register account</b>
+	<form action="../../account/register" method="post">
+		<!-- 输入账户密码 -->
+		<p>
+			Password: <input type="password" name="password" />
+		</p>
+		<!-- 提交按钮 -->
+		<p>
+			<input type="submit" value="Submit" />
+		</p>
+		<!-- 后退到上一页按钮 -->
+		<p>
+			<input type="button" onclick="window.history.back()" value="back" />
+		</p>
+		<!-- 返回到导航主面按钮 -->
+		<p>
+			<input type="button" onclick="location.href='../../home'"
+				value="home" />
+		</p>
+	</form>
+</body>
+</html>

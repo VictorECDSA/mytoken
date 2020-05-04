@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Query token</title>
+</head>
+<body>
+	<b>Query token</b>
+	<form action="../../mytoken/balanceof" method="post">
+		<!-- 输入账户ID -->
+		<p>
+			Account ID: <input type="text" name="accountId" />
+		</p>
+		<!-- 输入代币ID -->
+		<p>
+			My token ID: <input type="text" name="myTokenId" />
+		</p>
+		<!-- 提交按钮 -->
+		<p>
+			<input type="submit" value="Submit" />
+		</p>
+		<!-- 后退到上一页按钮 -->
+		<p>
+			<input type="button" onclick="window.history.back()" value="back" />
+		</p>
+		<!-- 返回到导航主面按钮 -->
+		<p>
+			<input type="button" onclick="location.href='../../home'"
+				value="home" />
+		</p>
+	</form>
+</body>
+</html>
